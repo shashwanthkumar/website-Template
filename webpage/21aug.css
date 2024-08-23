@@ -1,0 +1,131 @@
+/* .side{
+    display:block;
+    z-index: 2;
+    width:30%;
+    min-width: 250px;
+    font-size: 24px;
+}  */
+/* body{
+   margin-left: 200px;
+   margin-right: 200px;
+} */
+ header{
+    background-color:white;
+    font-size: 24px;
+    font-family: "Karma", sans-serif;
+    z-index: 1;
+    position: fixed;
+    width:100%;
+    display:flex;
+    justify-content: space-between;  
+    top:0;
+ }
+ .menu{
+    font-size: large;
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+ .fol{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+ }
+ #food{
+    padding-right: 15px;
+    float:left;
+    width:100%;
+ }
+ img{
+    vertical-align: middle;
+    border-style: none;
+    width:100%;
+ }
+ h3{
+    font-family: "Karma", sans-serif;
+    font-weight:400;
+    font-size: 24px;
+    text-align: center;
+    display: block;
+ }
+ p{
+    font-family: "Karma", sans-serif;
+    text-align: center;
+ }
+ a{
+    text-decoration: none;
+    font-size: large;
+    padding:10px;
+    color: black;
+    align-content: center;
+    display:flex;
+ }
+ a:hover{
+    background-color: black;
+    color:white;
+ }
+ h4{
+   text-align: center;
+   font-family: "karma",sans-serif;
+ }
+ .chef{
+   justify-content: center;
+ }
+ .place1{
+   margin-left: 30px;
+ }
+ .places{
+   margin:0;
+   gap:0;
+   display: flex;
+   flex-wrap: wrap;
+ }
+ #place{
+   padding-left: 5px;
+   padding-bottom: 0px;
+   padding-right: 5px;
+   background-color:#616161 ;
+   margin-left:10px;
+   margin-bottom: 0;
+   margin-top: 5px;
+   color:white
+ }
+  footer{
+   padding-top:32px ;
+   padding-bottom: 32px;
+   gap:200px;
+   display: flex;
+   justify-content: space-between;
+}
+ .post{
+   width:200px;
+   margin-right: 20px;
+   display: flex;
+   flex-direction: column;
+   padding-left: 20px;
+   padding-right: 20px;
+   
+ }
+ .hol{
+   margin-right: 10px;
+ }
+ .lol{
+   display: flex;
+ }
+ #img1{
+   width:50px;
+   height:50px;
+ }
+ #lor{
+   text-transform: capitalize;
+   font-size: larger;
+   text-align: left;
+   margin-top: 0;
+   margin-bottom: 5px;
+   margin-left: 20px;
+ }
+ #gel{
+   margin-left: 20px;
+   text-align:left;
+   margin-top: 0;
+ }
